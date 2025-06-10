@@ -1,0 +1,3 @@
+# Exclude Jekyll template files that contain Liquid syntax
+_includes/search/algolia-search-scripts.html
+_includes/search/google-search-scripts.html 

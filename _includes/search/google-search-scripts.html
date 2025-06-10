@@ -1,4 +1,5 @@
 <script>
+/* eslint-disable */
   (function () {
     var cx = '{{ site.google.search_engine_id }}';
     var gcse = document.createElement('script');
@@ -20,11 +21,11 @@
     return false;
   }
 
-  {% if site.google.instant_search %}
+  if ('{{ site.google.instant_search }}' === 'true') {
     $(document).ready(function () {
       $('input#cse-search-input-box-id').on('keyup', function () {
         googleCustomSearchExecute();
       });
     });
-  {% endif %}
+  }
 </script>
