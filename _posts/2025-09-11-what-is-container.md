@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "1.2 What is a Container?" 
+date: 2025-09-11
 categories: Docker
 ---
 # What is a Container?
