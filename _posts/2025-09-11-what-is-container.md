@@ -3,6 +3,7 @@ layout: single
 title: "1.2 What is a Container?" 
 date: 2025-09-11
 categories: Docker
+Typora-root-url: ../
 ---
 # What is a Container?
 
@@ -12,7 +13,7 @@ Docker containers are like shipping containers that hold applications. The appli
 
 Consider the following diagram:
 
-|       ![1.2_1](../images/$(filename)/1.2_1.png)       |
+|        ![1.2_1](/images/$(filename)/1.2_1.png)        |
 | :---------------------------------------------------: |
 | **Figure 1. An app inside the container environment** |
 
@@ -24,7 +25,7 @@ Inside the container, you cannot see the external environment. However, this con
 
 These containers maintain independent environments while sharing the computer's CPU, memory, and OS resources.
 
-|          ![1.2_2](../images/$(filename)/1.2_2.png)           |
+|           ![1.2_2](/images/$(filename)/1.2_2.png)            |
 | :----------------------------------------------------------: |
 | **Figure 2. Multiple containers on one computer share the same OS, CPU, and memory** |
 
