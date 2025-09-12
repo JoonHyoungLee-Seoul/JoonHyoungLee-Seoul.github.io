@@ -11,7 +11,7 @@ header:
 Typora-root-url: ../
 ---
 
-# 1.3 Using Containers as Remote Computers
+# Using Containers as Remote Computers
 
 Docker allows you to package tools and scripts into a single image, enabling you to run scripts directly as containers without additional installation or configuration work.
 
@@ -64,7 +64,9 @@ CONTAINER ID   IMAGE           COMMAND        CREATED          STATUS
 ```
 
 You can see that the Container ID matches the hostname we checked inside the container.
+
 Docker generates and assigns a random ID value each time a container runs, and part of this ID becomes the hostname.
+
 If you want to specify a particular container, you can specify the first few characters of the container ID.
 
 Since the current `CONTAINER ID` is `6b27a8190cde`, let's specify up to `6b`:
@@ -122,9 +124,12 @@ output:
 ]
 ```
 
-In addition to the above information, useful information for tracking application issues is provided, such as the container's virtual file system paths and commands running in the container. This information is also generated in `JSON` format, making it advantageous for automated processing.
+In addition to the above information, useful information for tracking application issues is provided, such as the container's virtual file system paths and commands running in the container.
+
+This information is also generated in `JSON` format, making it advantageous for automated processing.
 
 There's one more lesson to learn from the exercises so far: when using Docker, all containers are the same.
+
 Applying Docker adds one management layer on top of all applications, which manages any application in the same way:
 
 - Use the `run` command to execute applications.
