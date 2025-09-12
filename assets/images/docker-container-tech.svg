@@ -1,0 +1,30 @@
+<!-- This is a placeholder for a Docker-related header image -->
+<!-- You should replace this with an actual image file -->
+<!-- For demonstration purposes, we'll create a simple SVG that can serve as a placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  
+  <!-- Container boxes -->
+  <rect x="100" y="150" width="80" height="60" fill="#3498db" opacity="0.8"/>
+  <rect x="200" y="140" width="80" height="80" fill="#e74c3c" opacity="0.8"/>
+  <rect x="300" y="160" width="80" height="50" fill="#2ecc71" opacity="0.8"/>
+  <rect x="400" y="145" width="80" height="70" fill="#f39c12" opacity="0.8"/>
+  
+  <!-- Title text -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="48" fill="#ecf0f1" text-anchor="middle">
+    Docker Containers
+  </text>
+  
+  <!-- Connecting lines -->
+  <line x1="180" y1="180" x2="200" y2="180" stroke="#bdc3c7" stroke-width="2"/>
+  <line x1="280" y1="180" x2="300" y2="185" stroke="#bdc3c7" stroke-width="2"/>
+  <line x1="380" y1="182" x2="400" y2="180" stroke="#bdc3c7" stroke-width="2"/>
+</svg>
