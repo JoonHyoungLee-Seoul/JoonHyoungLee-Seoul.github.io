@@ -8,7 +8,6 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/docker-container-tech.svg
   caption: "Docker Container Architecture"
-excerpt: "Docker의 기본 개념을 이해하고 첫 번째 컨테이너를 실행해보는 Hello World 튜토리얼"
 Typora-root-url: ../
 ---
 
