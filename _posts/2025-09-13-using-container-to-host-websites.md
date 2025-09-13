@@ -70,7 +70,7 @@ Publishing a container's port means that Docker listens on a port on the host co
 
 In the example above, `8088:80` means that traffic coming to port `8088` on the host computer is forwarded to port `80` in the container. The following diagram helps you easily understand this process:
 
-| ![스크린샷 2025-09-13 오후 3.30.47](/images/$(filename)/스크린샷 2025-09-13 오후 3.30.47.png) |
+| ![1.4_1](/images/$(filename)/1.4_1.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.The physical and virtual networks for computers and containers** |
 
@@ -79,12 +79,12 @@ To interpret this diagram: the computer is the host computer running Docker with
 On this computer, one container is running through Docker. This container's IP address is `172.0.5.1`, which is an address on Docker's virtual network assigned by Docker.
 
 Computers on the physical network cannot access this container's IP address. This is because this address exists only within Docker's internal network. However, since the container's port is published, traffic can be forwarded to the container.
-
+`
 ## Testing the Web Server
 
 Let's access the `http://localhost:8088` page in a browser. This `HTTP` request is sent from the local computer, but the `HTTP` response comes from the container.
 
-| ![스크린샷 2025-09-13 오후 3.31.49](/images/$(filename)/스크린샷 2025-09-13 오후 3.31.49.png) |
+| ![1.4_2](/images/$(filename)/1.4_2.png) |
 | :----------------------------------------------------------: |
 | **Figure 2. The web application served from a container on the local machine** |
 

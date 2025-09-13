@@ -3,8 +3,14 @@ layout: single
 title: "[Docker] 1.2 What is a Container?" 
 date: 2025-09-11
 categories: Docker
+header:
+  overlay_image: /assets/images/docker-container-tech.svg
+  overlay_filter: 0.5
+  teaser: /assets/images/docker-container-tech.svg
+  #caption: "Docker Container Architecture"
 Typora-root-url: ../
 ---
+
 # What is a Container?
 
 ## Container Concept
