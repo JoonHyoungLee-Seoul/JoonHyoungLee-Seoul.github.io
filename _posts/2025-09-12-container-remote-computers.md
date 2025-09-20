@@ -7,9 +7,10 @@ header:
   overlay_image: /assets/images/docker-container-tech.svg
   overlay_filter: 0.5
   teaser: /assets/images/docker-container-tech.svg
-  caption: "Docker Container Architecture"
+  #caption: "Docker Container Architecture"
 Typora-root-url: ../
 ---
+
 
 # Using Containers as Remote Computers
 
