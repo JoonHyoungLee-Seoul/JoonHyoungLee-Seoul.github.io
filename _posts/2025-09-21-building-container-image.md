@@ -101,3 +101,11 @@ This demonstrates how to package a simple application as an image and run it wit
 ## Next Steps
 
 In the next post, we'll study the concepts of Docker images and image layers in more detail.
+
+## Sources
+
+- https://github.com/gilbutITbook/080258
+- Learn Docker in a Month of Lunches by Elton Stoneman
+  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
+  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
+  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)
