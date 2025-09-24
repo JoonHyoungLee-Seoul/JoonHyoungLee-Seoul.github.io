@@ -73,6 +73,10 @@ docker image build -t web-ping:v2 .
 
 Output:
 
+| ![2.5](/images/$(filename)/2.5.png) |
+| :----------------------------------------------------------: |
+| **Figure 1.Building an image where layers can be used from the cache** |
+
 In this image, steps 2 through 5 reused previously cached layers, but steps 6 and 7 created new layers.
 
 Dockerfile script instructions have a 1:1 relationship with image layers. However, if the result of an instruction is the same as the previous build, it reuses the previously cached layer to reduce the waste of re-executing the same instruction.
@@ -81,9 +85,6 @@ Docker uses hash values to check if there are matching layers in the cache. Hash
 
 If there is no matching hash value in the existing image, a cache miss occurs and the instruction is executed. Once an instruction is executed, all subsequent instructions are unconditionally executed, even if they haven't been modified.
 
-| ![2.5](/images/$(filename)/2.5.png) |
-| :----------------------------------------------------------: |
-| **Figure 1.Building an image where layers can be used from the cache** |
 
 In the image above, when step 6's `COPY` instruction was modified, step 7's `CMD` instruction was also automatically executed.
 
