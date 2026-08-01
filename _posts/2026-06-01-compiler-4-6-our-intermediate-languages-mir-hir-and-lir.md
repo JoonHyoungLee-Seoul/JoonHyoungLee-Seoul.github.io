@@ -8,6 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
+> **Source note:** This article is a study note based on Section 4.6 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
+
 Section 4.6 introduces the three intermediate languages used throughout the book: **MIR**, **HIR**, and **LIR**. The author’s main goal is not to claim that these are universal best IRs, but to provide concrete representations on which later optimization and code-generation algorithms can be explained. The chapter states that **MIR** is the primary representation, **HIR** is used when high-level program structure matters, and **LIR** is used when low-level machine details must be explicit.
 
 ---

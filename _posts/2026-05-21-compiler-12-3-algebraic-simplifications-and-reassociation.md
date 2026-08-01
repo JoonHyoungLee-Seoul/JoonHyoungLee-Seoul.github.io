@@ -8,6 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
+> **Source note:** This article is a study note based on Section 12.3 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
+
 ## Core Idea
 
 Algebraic simplification is an early optimization that rewrites expressions using algebraic identities and operator-specific rules. Reassociation is closely related, but its focus is slightly different: it restructures expressions using associativity, commutativity, and distributivity so that the compiler can separate constant terms, loop-invariant terms, and truly variable terms.

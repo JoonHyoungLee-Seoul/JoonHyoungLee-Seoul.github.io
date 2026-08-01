@@ -8,6 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
+> **Source note:** This article is a study note based on Sections 4.2–4.5 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
+
 ## Core Idea
 
 Sections 4.2–4.5 classify intermediate representations by **abstraction level**: high-level, medium-level, low-level, and multi-level IRs. The main point is that no single representation is ideal for every compiler phase. Higher-level IRs preserve source-language structure, lower-level IRs expose machine details, and multi-level IRs try to support several views within one compiler infrastructure.

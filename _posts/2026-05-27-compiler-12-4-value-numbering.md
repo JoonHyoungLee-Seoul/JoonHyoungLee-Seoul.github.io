@@ -8,6 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
+> **Source note:** This article is a study note based on Section 12.4 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
+
 Value numbering is an optimization technique for discovering computations that produce the same value, even when they do not appear as textually identical expressions. Once two computations are known to represent the same value, a later computation can often be replaced by a copy of the already computed result.
 
 This section presents two forms of value numbering:

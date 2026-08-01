@@ -8,6 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
+> **Source note:** This article is a study note based on Section 11.4 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
+
 
 > Compiler optimization is not only about _which optimizations exist_,  
 > but also about _when_ and _how often_ they should run.
