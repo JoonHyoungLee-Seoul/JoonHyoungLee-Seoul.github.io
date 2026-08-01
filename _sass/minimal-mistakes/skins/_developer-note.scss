@@ -1,0 +1,51 @@
+/* Quiet developer notebook skin */
+$background-color: #111318 !default;
+$text-color: #d8dee9 !default;
+$primary-color: #7dd3c7 !default;
+$muted-text-color: #8992a3 !default;
+$border-color: #292e38 !default;
+$code-background-color: #181b22 !default;
+$code-background-color-dark: #0d0f13 !default;
+$form-background-color: #181b22 !default;
+$footer-background-color: #0d0f13 !default;
+$link-color: #8bded2 !default;
+$link-color-hover: #b2f0e8 !default;
+$link-color-visited: #a8c9c5 !default;
+$masthead-link-color: #d8dee9 !default;
+$masthead-link-color-hover: #7dd3c7 !default;
+$navicon-link-color-hover: #7dd3c7 !default;
+
+$sans-serif: "Inter", "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
+$sans-serif-narrow: $sans-serif !default;
+$monospace: "JetBrains Mono", "SFMono-Regular", Consolas, monospace !default;
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $monospace !default;
+
+$base00: #181b22 !default;
+$base01: #20242d !default;
+$base02: #292e38 !default;
+$base03: #657080 !default;
+$base04: #8992a3 !default;
+$base05: #d8dee9 !default;
+$base06: #e7ebf2 !default;
+$base07: #f4f6fa !default;
+$base08: #e78284 !default;
+$base09: #e5a66b !default;
+$base0a: #e5c07b !default;
+$base0b: #9bd49b !default;
+$base0c: #7dd3c7 !default;
+$base0d: #82aaff !default;
+$base0e: #c099ff !default;
+$base0f: #d290e4 !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}

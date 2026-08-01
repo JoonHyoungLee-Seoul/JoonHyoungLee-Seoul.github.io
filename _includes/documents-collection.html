@@ -10,5 +10,5 @@
 {% endif %}
 
 {%- for post in entries -%}
-  {% include archive-single.html locale=locale type=include.type %}
+  {% include archive-single.html locale=locale type=include.type index=forloop.index %}
 {%- endfor -%}

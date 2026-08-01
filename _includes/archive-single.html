@@ -26,6 +26,12 @@
       {% endif %}
     </h2>
     {% include page__meta.html locale=locale type=include.type %}
+    {% if post.categories[0] or post.tags[0] %}
+      <div class="archive__item-topics" aria-label="Topics">
+        {% assign topics = post.categories | concat: post.tags | uniq %}
+        {% for topic in topics limit: 3 %}<span class="archive__item-topic">{{ topic }}</span>{% endfor %}
+      </div>
+    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
