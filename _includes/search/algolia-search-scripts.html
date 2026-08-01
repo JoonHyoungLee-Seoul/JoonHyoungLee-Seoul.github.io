@@ -1,3 +1,4 @@
+{% assign locale = include.locale | default: site.locale %}
 <script>
 /* eslint-disable */
 // Jekyll template variables
@@ -5,8 +6,8 @@ const searchConfig = {
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
   indexName: '{{ site.algolia.index_name }}',
-  placeholder: '{{ site.data.ui-text[site.locale].search_placeholder_text | default: "Enter your search term..." }}',
-  noResults: '{{ site.data.ui-text[site.locale].search_algolia_no_results | default: "No results" }}',
+  placeholder: '{{ site.data.ui-text[locale].search_placeholder_text | default: "Enter your search term..." }}',
+  noResults: '{{ site.data.ui-text[locale].search_algolia_no_results | default: "No results" }}',
   baseUrl: '{{ site.baseurl }}',
   poweredBy: '{% unless site.algolia.powered_by == false %}true{% else %}false{% endunless %}' === 'true'
 };
