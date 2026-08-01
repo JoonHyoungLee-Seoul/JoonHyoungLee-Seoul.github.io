@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 1.4 Using Containers to Host Websites" 
+title: "[Docker] 1.4 Using Containers to Host Websites"
 date: 2025-09-13
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Docker Container Architecture"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# Using Containers to Host Websites
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Container Status Check
 
@@ -70,7 +67,7 @@ Publishing a container's port means that Docker listens on a port on the host co
 
 In the example above, `8088:80` means that traffic coming to port `8088` on the host computer is forwarded to port `80` in the container. The following diagram helps you easily understand this process:
 
-| ![1.4_1](/images/$(filename)/1.4_1.png) |
+| ![1.4_1](/assets/images/docker/1.4_1.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.The physical and virtual networks for computers and containers** |
 
@@ -84,7 +81,7 @@ Computers on the physical network cannot access this container's IP address. Thi
 
 Let's access the `http://localhost:8088` page in a browser. This `HTTP` request is sent from the local computer, but the `HTTP` response comes from the container.
 
-| ![1.4_2](/images/$(filename)/1.4_2.png) |
+| ![1.4_2](/assets/images/docker/1.4_2.png) |
 | :----------------------------------------------------------: |
 | **Figure 2. The web application served from a container on the local machine** |
 
@@ -122,11 +119,3 @@ The `$()` syntax passes the output of the command inside the parentheses to anot
 ## Next Steps
 
 The next post will cover "Understanding how Docker runs containers"
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

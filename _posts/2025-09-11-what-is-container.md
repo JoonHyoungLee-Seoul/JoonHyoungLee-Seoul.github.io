@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 1.2 What is a Container?" 
+title: "[Docker] 1.2 What is a Container?"
 date: 2025-09-11
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Docker Container Architecture"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# What is a Container?
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Container Concept
 
@@ -19,7 +16,7 @@ Docker containers are like shipping containers that hold applications. The appli
 
 Consider the following diagram:
 
-|        ![1.2_1](/images/$(filename)/1.2_1.png)        |
+|        ![1.2_1](/assets/images/docker/1.2_1.png)        |
 | :---------------------------------------------------: |
 | **Figure 1. An app inside the container environment** |
 
@@ -31,7 +28,7 @@ Inside the container, you cannot see the external environment. However, this con
 
 These containers maintain independent environments while sharing the computer's CPU, memory, and OS resources.
 
-|           ![1.2_2](/images/$(filename)/1.2_2.png)            |
+|           ![1.2_2](/assets/images/docker/1.2_2.png)            |
 | :----------------------------------------------------------: |
 | **Figure 2. Multiple containers on one computer share the same OS, CPU, and memory** |
 
@@ -53,11 +50,3 @@ Docker containers achieve isolation and density through these efficiencies:
 ## Next Steps
 
 The next post will cover hands-on practice for managing containers.
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

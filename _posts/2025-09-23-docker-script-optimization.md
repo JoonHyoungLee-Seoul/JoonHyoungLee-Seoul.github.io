@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 2.5 Optimizing Dockerfile Scripts Using Image Layer Cachings" 
+title: "[Docker] 2.5 Optimizing Dockerfile Scripts Using Image Layer Caching"
 date: 2025-09-23
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Create Docker Image"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# Optimizing Dockerfile Scripts Using Image Layer Caching
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 The web-ping image built in the previous post contains a JavaScript file with the application implementation.
 
@@ -63,7 +60,7 @@ setInterval(() => {
   req.end();
 }, process.env.INTERVAL);
 
-# !!I inserted new line here.!!
+> **Note:** A new line was inserted here.
 ```
 
 Let's rebuild the image after the modification:
@@ -73,7 +70,7 @@ docker image build -t web-ping:v2 .
 
 Output:
 
-| ![2.5](/images/$(filename)/2.5.png) |
+| ![2.5](/assets/images/docker/2.5.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.Building an image where layers can be used from the cache** |
 
@@ -134,11 +131,3 @@ Considering such optimizations will be of great help when building images in the
 ## Next Steps
 
 In the next post, we will review what we learned in this chapter by solving practice problems.
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

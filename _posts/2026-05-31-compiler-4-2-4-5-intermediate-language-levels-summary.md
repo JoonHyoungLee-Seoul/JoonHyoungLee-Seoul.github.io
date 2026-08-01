@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "[Compiler] 4.2–4.5 Intermediate-Language Levels Summary"
-date: 2026-05-31 18:57:54 +0800
+date: 2026-05-31
 categories: Compiler
 tags: [Compiler, Intermediate-Representation]
-toc: true
-toc_sticky: true
 ---
 
 > **Source note:** This article is a study note based on Sections 4.2–4.5 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.

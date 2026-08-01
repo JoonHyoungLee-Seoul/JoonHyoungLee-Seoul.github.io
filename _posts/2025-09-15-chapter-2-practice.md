@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 1.6 Exercise - Working with Container File Systems" 
+title: "[Docker] 1.6 Exercise - Working with Container File Systems"
 date: 2025-09-15
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Docker Container Architecture"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# Exercise - Working with Container File Systems
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Chapter Summary
 
@@ -57,7 +54,7 @@ Output:
 index.html
 ```
 
-| ![1.6_1](/images/$(filename)/1.6_1.png) |
+| ![1.6_1](/assets/images/docker/1.6_1.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.Link before** |
 
@@ -80,7 +77,7 @@ The format of the `cp` command is `[source path] [target path]`. The container c
 
 Browse to the published port on http://localhost:8088 - you'll see your new content.
 
-| ![1.6_2](/images/$(filename)/1.6_2.png) |
+| ![1.6_2](/assets/images/docker/1.6_2.png) |
 | :----------------------------------------------------------: |
 | **Figure 2.Link After** |
 
@@ -94,11 +91,3 @@ Browse to the published port on http://localhost:8088 - you'll see your new cont
 ## Next Steps
 
 The next chapter will cover "How to create Docker image".
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

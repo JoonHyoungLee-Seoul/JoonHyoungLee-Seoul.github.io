@@ -1,18 +1,14 @@
 ---
 layout: single
-title: "[Docker] 1.3 Using Containers as Remote Computers" 
+title: "[Docker] 1.3 Using Containers as Remote Computers"
 date: 2025-09-12
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Docker Container Architecture"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
 
-# Using Containers as Remote Computers
+---
 
 Docker allows you to package tools and scripts into a single image, enabling you to run scripts directly as containers without additional installation or configuration work.
 
@@ -141,11 +137,3 @@ Applying Docker adds one management layer on top of all applications, which mana
 ## Next Steps
 
 Hosting websites using containers.
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

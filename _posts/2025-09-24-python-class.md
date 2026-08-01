@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Python] 1.1 About Class" 
+title: "[Python] 1.1 Python Classes: A Beginner's Guide to Object-Oriented Programming"
 date: 2025-09-24
 categories: Python
-#header:
-  #overlay_image: /assets/images/docker-container-tech.svg
-  #overlay_filter: 0.5
-  #teaser: /assets/images/docker-container-tech.svg
-  #caption: "Create Docker Image"
-Typora-root-url: ../
+tags: [Python, Fundamentals]
 ---
 
-# Python Classes: A Beginner's Guide to Object-Oriented Programming
+> **Source note:** This article is a study note based on [*Jump to Python*](https://wikidocs.net/28). It summarizes and reorganizes concepts from the source; credit for the original material belongs to its author and publisher.
+
+---
 
 At some point, as I unconsciously used generative AI for coding, I thought that Python's basics were getting forgotten, so I thought I should review them little by little every day to strengthen the basics.
 
@@ -339,6 +336,3 @@ choi
 park
 park
 ```
-## Sources
-
-- Jump to Python: https://wikidocs.net/28

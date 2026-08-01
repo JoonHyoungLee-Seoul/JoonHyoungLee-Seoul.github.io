@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 2.1 Using Images Shared on Docker Hub" 
+title: "[Docker] 2.1 Using Images Shared on Docker Hub"
 date: 2025-09-15
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Create Docker Image"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# Using Images Shared on Docker Hub
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Chapter Introduction
 
@@ -133,7 +130,7 @@ Docker images are packaged with default configuration values, but you should be 
 
 The following diagram shows containers with various configuration values beyond the default values included in the image:
 
-| ![2.1](/images/$(filename)/2.1.png) |
+| ![2.1](/assets/images/docker/2.1.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.Environment variables in Docker images and containers** |
 
@@ -142,11 +139,3 @@ Containers only have environment variables assigned by Docker. The important poi
 ## Next Steps
 
 In the next post, we'll learn how to create Docker images directly by writing a `Dockerfile`.
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "[Compiler] 5.1 Data Representations and Instructions Summary"
-date: 2026-06-01 15:08:16 +0800
+date: 2026-06-01
 categories: Compiler
 tags: [Compiler, Runtime-Support]
-toc: true
-toc_sticky: true
 ---
 
 > **Source note:** This article is a study note based on Section 5.1 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.

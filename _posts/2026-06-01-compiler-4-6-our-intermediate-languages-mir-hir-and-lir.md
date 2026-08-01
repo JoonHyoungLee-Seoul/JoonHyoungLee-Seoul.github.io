@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "[Compiler] 4.6 Our Intermediate Languages (MIR, HIR, and LIR)"
-date: 2026-06-01 11:27:06 +0800
+date: 2026-06-01
 categories: Compiler
 tags: [Compiler, Intermediate-Representation]
-toc: true
-toc_sticky: true
 ---
 
 > **Source note:** This article is a study note based on Section 4.6 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.

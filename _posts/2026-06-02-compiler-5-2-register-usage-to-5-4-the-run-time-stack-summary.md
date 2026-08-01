@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "[Compiler] 5.2 Register Usage ~ 5.4 The Run-Time Stack Summary"
-date: 2026-06-02 08:37:52 +0800
+date: 2026-06-02
 categories: Compiler
 tags: [Compiler, Runtime-Support]
-toc: true
-toc_sticky: true
 ---
 
 > **Source note:** This article is a study note based on Sections 5.2–5.4 of Steven S. Muchnick, [*Advanced Compiler Design and Implementation*](https://shop.elsevier.com/books/advanced-compiler-design-and-implementation/muchnick/978-0-08-049871-3), Morgan Kaufmann, 1997 (ISBN 978-1-55860-320-2). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.

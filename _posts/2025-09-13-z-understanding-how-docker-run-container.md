@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 1.5 How Docker Runs Containers" 
+title: "[Docker] 1.5 How Docker Runs Containers"
 date: 2025-09-13
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Docker Container Architecture"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# How Docker Runs Containers
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Docker Workflow Overview
 
@@ -23,7 +20,7 @@ In this post, we'll explain Docker's internal operating principles to help you f
 
 The following diagram shows that many components are involved when Docker runs containers:
 
-| ![1.5_1](/images/$(filename)/1.5_1.png) |
+| ![1.5_1](/assets/images/docker/1.5_1.png) |
 | :----------------------------------------------------------: |
 | **Figure 1.The components of Docker** |
 
@@ -46,11 +43,3 @@ Docker Engine manages containers through a component called **containerd**. Cont
 ## Next Steps
 
 The next post will cover Docker images and how they're structured and managed.
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)

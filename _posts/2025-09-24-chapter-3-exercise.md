@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "[Docker] 2.6 Lab Exercise - Creating Docker Image without Dockerfile Script" 
+title: "[Docker] 2.6 Lab Exercise - Creating Docker Image without Dockerfile Script"
 date: 2025-09-24
 categories: Docker
-header:
-  overlay_image: /assets/images/docker-container-tech.svg
-  overlay_filter: 0.5
-  teaser: /assets/images/docker-container-tech.svg
-  #caption: "Create Docker Image"
-Typora-root-url: ../
+tags: [Docker, Containers]
 ---
 
-# Lab Exercise - Creating Docker Image without Dockerfile Script
+> **Source note:** This article is a study note based on Elton Stoneman, [*Learn Docker in a Month of Lunches*](https://github.com/gilbutITbook/080258). It summarizes and reorganizes concepts from the book; credit for the original material belongs to the author and publisher.
+
+---
 
 ## Lab Question
 
@@ -89,12 +86,3 @@ Lab solution, by: LEE
 ```
 
 Here, we can see that `ch03.txt` has been updated with the name at the end.
-
-
-## Sources
-
-- https://github.com/gilbutITbook/080258
-- Learn Docker in a Month of Lunches by Elton Stoneman
-  - [Amazon](https://www.amazon.com/-/ko/Elton-Stoneman/e/B0759TFV4F/ref=dp_byline_cont_book_1)
-  - [PDF](https://pdfcoffee.com/learn-docker-month-lunches-4-pdf-free.html)
-  - [Youtube](https://www.youtube.com/@EltonStoneman/playlists)
